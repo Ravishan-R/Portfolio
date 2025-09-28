@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Simulate a form submission
         setTimeout(() => {
             if (formData.get('name') && formData.get('email') && formData.get('message')) {
-                formMessage.textContent = 'Message sent successfully! I will get back to you shortly.';
+                formMessage.textContent = 'At the movement this is not working I kindly request to Eamil to the given addres manualy ravishanrathnayakeprs@gmail.com';
                 formMessage.style.color = 'var(--primary-color)';
                 contactForm.reset();
             } else {
